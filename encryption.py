@@ -76,3 +76,4 @@ def decrypt_string(base64_input: str, password: str) -> str | None:
 
     except (InvalidTag, ValueError, KeyError, json.JSONDecodeError):
         return None
+
